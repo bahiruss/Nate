@@ -100,9 +100,7 @@ export const Home = () => {
                       Find a Doctor
                     </h2>
                     <p className='text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'>World class care for everyone. Our health system offers unmatched expert health care. From the lab to the clinic</p>
-                    <Link to='/doctors' className='w-[44px] h-[44px] rounded-full border border-solid border-[#1B1A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
-                      <BsArrowRight className="group-hover:text-white w-6 h-5" />
-                    </Link>
+                    
                   </div>
 
               </div>
@@ -117,9 +115,7 @@ export const Home = () => {
                       Find a Location
                     </h2>
                     <p className='text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'>World class care for everyone. Our health system offers unmatched expert health care. From the lab to the clinic</p>
-                    <Link to='/doctors' className='w-[44px] h-[44px] rounded-full border border-solid border-[#1B1A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
-                      <BsArrowRight className="group-hover:text-white w-6 h-5" />
-                    </Link>
+                    
                   </div>
 
               </div>
@@ -134,9 +130,7 @@ export const Home = () => {
                       Book Appointment
                     </h2>
                     <p className='text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'>World class care for everyone. Our health system offers unmatched expert health care. From the lab to the clinic</p>
-                    <Link to='/doctors' className='w-[44px] h-[44px] rounded-full border border-solid border-[#1B1A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
-                      <BsArrowRight className="group-hover:text-white w-6 h-5" />
-                    </Link>
+                    
                   </div>
 
               </div>
@@ -181,7 +175,7 @@ export const Home = () => {
     </li>
 
   </ul>
-  <Link to='/'><button className='btn'>Learn More</button></Link>
+
 </div>
 <div className="relative z-10 xl:w-[770px] flex justify-end mt-[50px] lg:mt-0">
   <img src={d} className='w-3/4' alt="" />
